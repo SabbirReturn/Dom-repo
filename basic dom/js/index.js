@@ -15,10 +15,12 @@ line.innerText = 'Tour list'
 
 let places = document.getElementsByClassName('place-name');
 for(let place of places){
-    console.log(place.innerText);
+    // console.log(place.innerText);
 }
 
-let changeLine = document.getElementById('other-name');
-console.log(changeLine.innerText)
-changeLine.innerText = 'kushtia'
+let changePlaces = document.getElementsByClassName('other-name');
+for( let changePlace of changePlaces){
+    changePlace.innerText = 'kushtia'
+
+}
 
