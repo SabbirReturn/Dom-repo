@@ -24,3 +24,10 @@ for( let changePlace of changePlaces){
 
 }
 
+let someLi = document.querySelectorAll('.name li')
+for(let li of someLi){
+    // console.log(li.innerText);
+}
+let li = document.querySelector('.name li');
+console.log(li.innerText)
+
