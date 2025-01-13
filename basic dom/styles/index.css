@@ -4,3 +4,8 @@ h1{
 li{
     color: orangered;
 }
+.place-name{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bolder;
+}
