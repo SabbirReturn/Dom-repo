@@ -29,5 +29,16 @@ for(let li of someLi){
     // console.log(li.innerText);
 }
 let li = document.querySelector('.name li');
-console.log(li.innerText)
+// console.log(li.innerText)
+
+//  let change =document.getElementById('tour-title').style.color 
+//  change = 'yellow';
+//  console.log(change);
+document.getElementById('tour-title').style.color = 'blue'
+document.getElementById('tour-title').style.textAlign = 'center'
+let title = document.getElementById('tour-place');
+title.getAttribute('id');
+console.log(title)
+
+
 
