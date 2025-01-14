@@ -15,17 +15,57 @@
         <h1>Welcome to my  dom</h1>
     </header>
     <main>
-        <h1>My awesome Dom de Baba</h1>
+        <section>
+            <h1>My awesome Dom de Baba</h1>
         <ul>
             <li>Jalali set</li>
             <li>Shafayet</li>
             <li>Bonobash</li>
         </ul>
+        </section>
+        <section>
+            <h1 id="fruit-title">which fruits I like</h1>
+            <ul>
+                <li>Orange</li>
+                <li>Apple</li>
+                <li>Mango</li>
+            </ul>
+        </section>
+        <section>
+            <h1 class="place">Tour Places</h1>
+            <ul>
+                <li class="importent-places">Sundarban</li>
+                <li class="importent-places">Kataban</li>
+                <li class="importent-places">Coxs Bazar</li>
+                <li>Ranggamati</li>
+            </ul>
+        </section>
     </main>
     <script src="js/dom.js"></script>
     <script>
-        console.log('adding Js inside the html file')
-        console.log(document.body)
+        // console.log('adding Js inside the html file')
+        // console.log(document.body)
+        let liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection)
+        for( let li of liCollection){
+            // console.log(li.innerText)
+        }
+
+        let h1Collection = document.getElementsByTagName('h1')
+         for( let h1 of h1Collection){
+            // console.log(h1.innerText);
+         }
+         let change = document.getElementById('fruit-title')
+         change.innerText = 'I like this type of food'
+         let changePlaces = document.getElementsByClassName('place')
+         for(let changePlace of changePlaces){
+            changePlace.innerText= 'Tour place where I go'
+         }
+
+         let importentPlaces = document.getElementsByClassName('importent-places')
+         for(let importentplace of importentPlaces){
+            console.log(importentplace.innerText);
+         }
     </script>
 </body>
 </html>
