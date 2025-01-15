@@ -21,6 +21,13 @@ let sections = document.querySelectorAll('section');
 for( let section of sections){
     section.style.backgroundColor = 'lightGray';
     section.style.border = '2px solid red';
-
+    section.style.marginBottom = '10px';
+    section.style.borderRadius = '10px';
+    section.style.padding = '10px';
 }
+let place = document.getElementById('place-container');
+place.style.backgroundColor = 'lightGreen'
+// let placeContainer = document.getElementsByClassName('place-container');
+// placeContainer.classList.add('bg-color');
+
 
