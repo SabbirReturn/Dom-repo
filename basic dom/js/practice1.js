@@ -42,7 +42,33 @@ const section = document.createElement('section');
 // main.appendChild(section);
 
 
+let h1 = document.createElement('h1');
+h1.innerText = ' My Name is Sabbir Hasan';
+section.appendChild(h1);
 
+let p = document.createElement('p');
+p.innerText = ' I am a frontend Developer '
+section.appendChild(p)
+
+let ul = document.createElement('ul');
+section.appendChild(ul);
+
+let li1 = document.createElement('li');
+li1.innerText = 'Html';
+ul.appendChild(li1);
+let li2 = document.createElement('li');
+li2.innerText = 'CSS';
+ul.appendChild(li2);
+let li3 = document.createElement('li');
+li3.innerText = 'JS';
+ul.appendChild(li3);
+let li4 = document.createElement('li');
+li4.innerText = 'JS-Dom';
+ul.appendChild(li4);
+let li5 = document.createElement('li');
+li5.innerText = 'React';
+ul.appendChild(li5);
+main.appendChild(section);
 
 
  
