@@ -56,3 +56,10 @@ let li5 = document.createElement('li');
 li5.innerText = 'React';
 ul.appendChild(li5);
 main.appendChild(section);
+
+
+let h1Collections = document.getElementsByClassName('section-title');
+for(let h1Collection of h1Collections){
+    h1Collection.innerText
+    console.log(h1Collection)
+}
