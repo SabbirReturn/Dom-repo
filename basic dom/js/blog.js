@@ -63,3 +63,9 @@ for(let h1Collection of h1Collections){
     h1Collection.innerText
     console.log(h1Collection)
 }
+
+let styles = document.getElementById('section-title');
+styles.style.backgroundColor = ' Blue'
+styles.style.textAlign = 'center'
+styles.style.color = 'White'
+styles.style.fontSize = '20px'
