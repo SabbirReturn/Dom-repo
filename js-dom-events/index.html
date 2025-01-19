@@ -8,7 +8,13 @@
 <body>
     <h1 id="title">Now I am learning special events with dom</h1>
     <button onclick="console.log(75)">Click Me</button>
-    <button onclick="console.log('Hey I am sabbir Hasan')">Another Button</button>
+    <button title="Click" onclick="console.log('Hey I am sabbir Hasan')">Another Button</button>
+    <br>
+    <br>
+    <button onclick="document.body.style.backgroundColor='Red'">Make Red</button>
+    <button onclick="makeYellow()">Make Yellow</button>
+    <button id="make-purple">Make Purple</button>
+    <button id="make-blue">make blue</button>
     <script src="js/index.js"></script>
 </body>
 </html>
