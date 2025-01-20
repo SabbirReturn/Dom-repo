@@ -27,3 +27,8 @@ makePinkBtn.addEventListener('click', function(){
 document.getElementById('make-golden').addEventListener('click', function(){
     document.body.style.backgroundColor = 'Goldenrod'
 })
+
+function makeBtn(){
+    let changeBtn = document.getElementById('btn')
+    changeBtn.innerText= 'Welcome to our website'
+}
