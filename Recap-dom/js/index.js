@@ -15,3 +15,9 @@ for(let fruit of fruitsName){
 
 let fruitTitle = document.getElementById('fruit-title');
 fruitTitle.innerText = 'Change the Title by Js'
+
+let someLi = document.querySelectorAll('#fruits-container li');
+for(let li of someLi){
+    console.log(li.innerText);
+    
+}
