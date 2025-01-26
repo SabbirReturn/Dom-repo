@@ -44,6 +44,8 @@ for(let section of sections){
 }
 let fruitsColor = document.getElementById('fruits-container');
 fruitsColor.classList.add('fruits')
+fruitsColor.classList.add('large-text')
+fruitsColor.classList.remove('fruits');
 
 
 
