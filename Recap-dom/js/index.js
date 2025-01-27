@@ -47,6 +47,19 @@ fruitsColor.classList.add('fruits')
 fruitsColor.classList.add('large-text')
 fruitsColor.classList.remove('fruits');
 
+ let mainContainer = document.getElementById('main-container');
+
+ let Section = document.createElement('section');
+ let h1 = document.createElement('h1');
+ h1.innerText = 'I like this type of food';
+ Section.appendChild(h1);
+let ul = document.createElement('ul');
+Section.appendChild(ul);
+let li = document.createElement('li');
+li.innerText = 'fast food'
+ul.appendChild(li);
+ mainContainer.appendChild(Section);
+
 
 
 
