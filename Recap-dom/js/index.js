@@ -60,6 +60,17 @@ li.innerText = 'fast food'
 ul.appendChild(li);
  mainContainer.appendChild(Section);
 
+let dressSection = document.createElement('section');
+dressSection.innerHTML = `
+    <h1>Favourite Dress</h1>
+    <h1>Trail</h1>
+    <ul>
+        <li>Shirt</li>
+        <li>Pant</li>
+    </ul>
+`
+mainContainer.appendChild(dressSection)
+
 
 
 
