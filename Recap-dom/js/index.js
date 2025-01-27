@@ -28,7 +28,7 @@ title.getAttribute('class');
 title.classList.remove('blue-bg');
 title.classList.add('blue');
 console.log(title);
-
+title.setAttribute('title','I love')
 
 // let fruitTitle = document.getElementById('fruit-title');
 // fruitTitle.setAttribute('title','I like this type od Food');
