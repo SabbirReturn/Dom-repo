@@ -11,3 +11,11 @@ function makeBlue(){
 } 
 
 clickBtn.style.borderRadius = '10px'
+
+
+let makeGreen = document.getElementById('make-green');
+makeGreen.onclick = function(){
+    document.body.style.backgroundColor = 'Green'
+    makeGreen.style.height = '50px'
+    makeGreen.style.width = '100px'
+}
