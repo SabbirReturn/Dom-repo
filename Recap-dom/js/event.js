@@ -9,3 +9,5 @@ function makeBlue(){
     document.body.style.backgroundColor = 'blue';
     change.innerText = 'Dom er ajke special Day'
 } 
+
+clickBtn.style.borderRadius = '10px'
