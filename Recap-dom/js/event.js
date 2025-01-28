@@ -19,3 +19,7 @@ makeGreen.onclick = function(){
     makeGreen.style.height = '50px'
     makeGreen.style.width = '100px'
 }
+
+document.getElementById('make-pink').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'pink'
+})
