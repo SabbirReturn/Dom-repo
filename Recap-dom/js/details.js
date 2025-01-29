@@ -5,9 +5,9 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     let textLast = document.getElementById('text-last');
     let lastNameText = textLast.value
 
-    let phoneNum = document.getElementById('phoneNumber');
-    let num = parseFloat(phoneNum.value);
-    console.log(num);
+    // let phoneNum = document.getElementById('phoneNumber');
+    // let num = parseFloat(phoneNum.value);
+    // console.log(num);
     
 
 
@@ -22,9 +22,16 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     h12.innerText = lastNameText;
     detailsContainer.appendChild(h12);
 
-    // let h13 = document.createElement('h1');
-    // h13.innerText = num;
-    // detailsContainer.appendChild(h13);
+    textFirst.value = '';
+})
 
-
+document.getElementById('text-first').addEventListener('keyup',function(event){
+    let text = event.target.value;
+    let btn = document.getElementById('submit-btn');
+    if(text === 'Sabbir'){
+        btn.removeAttribute('disabled')
+    }
+    else{
+        btn.setAttribute('disabled', true);
+    }
 })
